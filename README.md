@@ -1,4 +1,4 @@
-Markdown
+
 # IT-4Fun Discord Server
 
 ## Willkommen! 
