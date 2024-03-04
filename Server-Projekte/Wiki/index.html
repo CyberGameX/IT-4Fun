@@ -15,8 +15,12 @@
             <li><a href="netzwerk.html">Netzwerk-Technik</a></li>
             <li><a href="programmieren.html">Programmieren</a></li>
         </ul>
-            <input type="text" placeholder="Suche" id="search_input" 
-            onkeyup="searchFunction('search_input', 'topic_list')">
+        <form onsubmit="searchFunction('search_input', 'topic_list'); return false;">
+            <label>
+                <input type="text" placeholder="Suche" id="search_input">
+            </label>
+            <button type="submit">Suchen</button>
+        </form>
     </nav>
 </header>
 
