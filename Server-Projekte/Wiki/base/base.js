@@ -1,5 +1,5 @@
 document.write(`
-<nav class="navbar" >
+<nav class="navbar">
 <ul class="nav-list" id="topic_list">
     <li><a href="index.html">Home</a></li>
     <li><a href="netzwerk.html">Netzwerk-Technik</a></li>
@@ -14,5 +14,4 @@ document.write(`
 </form>
 </nav>
 <script type="text/javascript" src="JS/search_funktion.js"></script>
-
  `);
