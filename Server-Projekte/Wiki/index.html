@@ -10,18 +10,17 @@
 <body>
 <header>
     <h1 class="index-title">InnoWiki</h1>
-    <nav class="navbar">
-        <ul class="nav-list">
+    <nav class="navbar" >
+        <ul class="nav-list" id="topic_list">
             <li><a href="netzwerk.html">Netzwerk-Technik</a></li>
             <li><a href="programmieren.html">Programmieren</a></li>
         </ul>
-        <form action="#">
-            <label>
-                <input type="text" placeholder="Suche">
-            </label>
-            <button type="submit">Suchen</button>
-        </form>
+            <input type="text" placeholder="Suche" id="search_input" 
+            onkeyup="searchFunction('search_input', 'topic_list')">
     </nav>
 </header>
+
+<script type="text/javascript" src="JS/search_funktion.js"></script>
+
 </body>
 </html>
