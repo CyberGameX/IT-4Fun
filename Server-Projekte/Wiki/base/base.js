@@ -18,5 +18,5 @@ document.write(`
     <button type="submit">Suchen</button>
 </form>
 </nav>
-<script type="text/javascript" src="JS/search_funktion.js"></script>
+<script type="text/javascript" src="JS/js_functions/search_funktion.js"></script>
  `);
