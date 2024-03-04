@@ -1,6 +1,8 @@
 document.write(`
+<link rel="stylesheet" href="standard.css">
 <nav class="navbar" >
 <ul class="nav-list" id="topic_list">
+    <li><a href="index.html">Home</a></li>
     <li><a href="netzwerk.html">Netzwerk-Technik</a></li>
     <li><a href="programmieren.html">Programmieren</a></li>
 </ul>
