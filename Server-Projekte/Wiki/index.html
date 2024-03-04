@@ -15,7 +15,8 @@
             <li><a href="netzwerk.html">Netzwerk-Technik</a></li>
             <li><a href="programmieren.html">Programmieren</a></li>
         </ul>
-        <form onsubmit="searchFunction('search_input', 'topic_list'); return false;">
+       <!-- 'return false;' prevents the side from reloading  -->
+        <form onsubmit="searchFunction('search_input', 'topic_list'); return false;"> 
             <label>
                 <input type="text" placeholder="Suche" id="search_input">
             </label>
