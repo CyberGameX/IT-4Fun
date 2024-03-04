@@ -1,5 +1,4 @@
 document.write(`
-<link rel="stylesheet" href="standard.css">
 <nav class="navbar" >
 <ul class="nav-list" id="topic_list">
     <li><a href="index.html">Home</a></li>
